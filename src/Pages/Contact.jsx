@@ -20,25 +20,25 @@ const Contact = () => {
   
   
     <form id="form" class="needs-validation" onSubmit={()=>alert('order placed')} novalidate>
-      <input type="text" name="FName" placeholder="First Name" required/>
+      <input type="text" name="FName" class="form-control" placeholder="First Name" required/>
       <div class="invalid-feedback">
                 Valid first name is required.
               </div>
-      <input type="text" name="LName" placeholder="Last Name" required/>
+      <input type="text" name="LName" class="form-control" placeholder="Last Name" required/>
       <div class="invalid-feedback">
                 Valid last name is required.
               </div><br/><br/><br/>
       
-      <input type="email" size="47"placeholder="email" required/>
+      <input type="email" size="47" class="form-control" placeholder="email" required/>
       <div class="invalid-feedback">
                 Valid  email is required.
               </div><br/><br/><br/>
       
-      <input type="tel" size="47"placeholder="mobile number" required/>
+      <input type="tel" size="47" class="form-control" placeholder="mobile number" required/>
       <div class="invalid-feedback">
                 Valid  mobile is required.
               </div><br/><br/><br/>
-      <input type="email" size="47"placeholder="Your product details" /><br/><br/><br/>
+      <input type="email" size="47" class="form-control" placeholder="Your product details" /><br/><br/><br/>
       <textarea  placeholder="Feedback...Please share your feedback " rows={5} cols={50} required>
       </textarea>
       <div class="invalid-feedback">
